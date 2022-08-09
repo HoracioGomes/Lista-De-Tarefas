@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9647C159289D22F300AC2C74 /* ListaTarefasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647C158289D22F300AC2C74 /* ListaTarefasTableViewController.swift */; };
+		9647C15B289D275400AC2C74 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647C15A289D275400AC2C74 /* CadastroViewController.swift */; };
+		9647C15D289D2ABB00AC2C74 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647C15C289D2ABB00AC2C74 /* TarefaUserDefaults.swift */; };
 		965A8B4C289A80A500094D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8B4B289A80A500094D2A /* AppDelegate.swift */; };
 		965A8B4E289A80A500094D2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8B4D289A80A500094D2A /* SceneDelegate.swift */; };
 		965A8B53289A80A500094D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965A8B51289A80A500094D2A /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9647C158289D22F300AC2C74 /* ListaTarefasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasTableViewController.swift; sourceTree = "<group>"; };
+		9647C15A289D275400AC2C74 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		9647C15C289D2ABB00AC2C74 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 		965A8B48289A80A500094D2A /* Lista-De-Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lista-De-Tarefas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		965A8B4B289A80A500094D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		965A8B4D289A80A500094D2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				965A8B4B289A80A500094D2A /* AppDelegate.swift */,
 				965A8B4D289A80A500094D2A /* SceneDelegate.swift */,
 				965A8B51289A80A500094D2A /* Main.storyboard */,
+				9647C158289D22F300AC2C74 /* ListaTarefasTableViewController.swift */,
+				9647C15A289D275400AC2C74 /* CadastroViewController.swift */,
+				9647C15C289D2ABB00AC2C74 /* TarefaUserDefaults.swift */,
 				965A8B54289A80A800094D2A /* Assets.xcassets */,
 				965A8B56289A80A800094D2A /* LaunchScreen.storyboard */,
 				965A8B59289A80A800094D2A /* Info.plist */,
@@ -137,6 +146,9 @@
 			files = (
 				965A8B4C289A80A500094D2A /* AppDelegate.swift in Sources */,
 				965A8B4E289A80A500094D2A /* SceneDelegate.swift in Sources */,
+				9647C15D289D2ABB00AC2C74 /* TarefaUserDefaults.swift in Sources */,
+				9647C159289D22F300AC2C74 /* ListaTarefasTableViewController.swift in Sources */,
+				9647C15B289D275400AC2C74 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
