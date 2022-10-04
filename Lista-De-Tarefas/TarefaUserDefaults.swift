@@ -32,4 +32,10 @@ class TarefaUserDefaults{
         return []
         
     }
+    
+    func remover(indice: Int){
+        tarefas = listar()
+        tarefas.remove(at: indice)
+        UserDefaults.standard.set(tarefas, forKey: keyTarefas)
+    }
 }
